@@ -7,10 +7,8 @@ public class MyWorld extends World {
         Hero hero = new Hero();
         addObject(hero, 100, 100);
         
-        Banana banana = new Banana();
-        addObject (banana, 600, 100);
+        Car car = new Car();
+        addObject (car, 600, 100);
         
-        Lobster lobster = new Lobster();
-        addObject (lobster, 600, 300);
     }
 }

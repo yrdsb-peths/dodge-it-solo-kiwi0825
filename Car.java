@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Banana extends Actor
+public class Car extends Actor
 {
     /**
      * Act - do whatever the Banana wants to do. This method is called whenever
@@ -17,18 +17,18 @@ public class Banana extends Actor
         move(-10);
         
         if (getX() <= 0) {
-            resetBanana();
+            resetCar();
         }
         
         if (isTouching(Hero.class)) {
             // Add a gameover symbol
-            SadFace sadFace = new SadFace();
-            getWorld().addObject(sadFace, 300, 200);
+            Ambulance ambulance = new Ambulance();
+            getWorld().addObject(ambulance, 300, 200);
             getWorld().removeObject(this);
         }
     }
     
-    public void resetBanana() {
+    public void resetCar() {
         int num = Greenfoot.getRandomNumber(2);
         if (num == 0) {
             setLocation (600, 100);
