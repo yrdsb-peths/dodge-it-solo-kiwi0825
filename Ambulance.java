@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class SadFace here.
+ * Appears when the Hero gets hit by a car
  * 
  * @author (your name) 
  * @version (a version number or a date)
@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Ambulance extends Actor
 {
     /**
-     * Act - do whatever the SadFace wants to do. This method is called whenever
+     * Act - do whatever the Ambulance wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act()

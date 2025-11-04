@@ -1,7 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Banana here.
+ * The car is the thing that the bear does not want to get hit by
+ * After the bear gets hit, the ambulance appears and picks up the bear
  * 
  * @author (your name) 
  * @version (a version number or a date)
