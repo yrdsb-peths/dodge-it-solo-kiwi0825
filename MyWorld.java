@@ -11,5 +11,8 @@ public class MyWorld extends World {
         // This creates the car
         Car car = new Car();
         addObject (car, 600, 100);
+        
+        Baguette baguette = new Baguette();
+        addObject(baguette, 100, 300);
     }
 }
