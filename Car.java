@@ -15,7 +15,7 @@ public class Car extends Actor
      */
     public void act()
     {
-        move(-20);
+        move(-10); // changed speed of car
         
         if (getX() <= 0) {
             resetCar();
