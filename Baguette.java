@@ -14,6 +14,6 @@ public class Baguette extends Actor
      */
     public void act()
     {
-        move(-5);
+        move(-10); // main branch change
     }
 }
